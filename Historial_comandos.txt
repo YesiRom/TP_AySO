@@ -1,0 +1,146 @@
+ls
+ls -l
+ls -a
+ls -la
+man ls
+man man
+pwd
+whoami
+echo "hola"
+echo SHOME
+cat README 
+cd repogit/
+ls
+git clone https://github.com/YesiRom/repo_Romero.git
+ls
+cd repo_Romero/
+ls
+history
+history > historial.txt
+ls
+cat historial.txt
+git status
+git add .
+git status
+git commit -m "Mi primer commit"
+git config --global user.email "yesica.romi.romero@gmail.com"
+git config --global user.name "YesiRom"
+git commit -m "Mi primer commit"
+git push
+git status
+exit
+pwd
+echo $HOME
+ls
+ls -l
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub
+cd ..
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:YesiRom/repo_Romero.git
+ls
+cd repo_Romero
+ls
+ls -l
+cat hola.txt
+git status
+git add .
+git status
+git commit -m "Agrego hola"
+git status
+git push
+git push 
+tail /etc/passwd
+head -n2 /etc/passwd
+cat /etc/passwd | grep vagrant
+cat /etc/passwd | grep -n nologin
+cat /etc/passwd | grep -nv nologin
+cat /etc/passwd | grep -nv nologin > archivo1.txt
+ls -l
+cat archivo1.txt
+cat /etc/passwd | grep -nv nologin
+cat /etc/passwd | grep -nv nologin | tail -n3
+sudo cat /etc/shadow
+lspci
+lscpu
+lscpu | grep model
+lscpu | grep Model
+lscpu | grep -i MODEL | head -n1
+lscpu | grep -i MODEL | head -n1 > info_procesador.txt
+ls
+cat info_procesador.txt
+ls -l
+cat archivo1.txt
+sort archivo1.txt 
+exit
+pwd
+echo $home
+echo $HOME
+ls
+ls -l
+ls -la
+cd repogit
+ls
+git clone
+git clone git@github.com:YesiRom/TP_AySO.git
+ls
+cd TP_AySO/
+pwd
+ls
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release 
+man grep
+grep -i Home_url /etc/os-release
+whoami 
+echo “Usuario=$(whoami)” > datos_usuario.txt 
+git add.
+git add .
+git status
+git config  --global "yesica.romi.romero@gmail.com"
+git config  --global "YesiRom"
+git config  --global yesica.romi.romero@gmail.com
+git config  --global "YesiRom"
+git status
+git commit -m "ADD: Agregado primer ejercicio sobre datos_usuarios.txt"
+git status
+head /proc/cpuinfo | grep "model name" >> 
+echo "Model name=$(head /proc/cpuinfo | grep "model name")" >> datos_usuario.txt
+cat datos_usuario.txt
+git status
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+grep -v nologin /etc/passwd > lista_ordenada
+sort lista_ordenada  -t":" -k7
+grep -v nologin /etc/passwd | sort -t":" -k7 > lista_ordenada
+git add .
+git status
+git commit -m "ADD: Listado de usuarios ordenada"
+apropos "dump traffic"
+tcpdump
+apropos "dump traffic" > comando_dump_net
+echo apropos "dump traffic" >> comando_dump_net
+git add .
+git status
+git commit -m "ADD: Comando para capturar y analizar el trafico de red"
+git status
+cat << FIN >> README.md
+Alumna: Romero Yesica Romina
+Division: 115
+Turno: Mañana
+FIN
+
+git staus
+git status
+git add .
+git status
+git commit -m "ADD: Agregamos a README.txt Alumno, Division y Turno"
+history -a $HOME/.bash_history
+ls -la $HOME
+history -a $HOME/.bash_history
